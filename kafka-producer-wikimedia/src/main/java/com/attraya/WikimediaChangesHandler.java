@@ -31,7 +31,7 @@ public class WikimediaChangesHandler implements EventHandler {
     // whenever there is a new event in wikimedia, then this onMessage will be triggered
     @Override
     public void onMessage(String s, MessageEvent messageEvent) throws Exception {
-        LOGGER.info("event data -> %s", messageEvent.getData());
+        LOGGER.info(String.format("event data -> %s", messageEvent.getData()));
 
         kafkaTemplate.send(topic, messageEvent.getData());
     }
