@@ -13,6 +13,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-wikimedia-kafka-db-integration</name>
 	<description>Demo project for Spring Boot and Kafka</description>
+	<modules>
+		<module>kafka-producer-wikimedia</module>
+	</modules>
+	<packaging>pom</packaging>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
