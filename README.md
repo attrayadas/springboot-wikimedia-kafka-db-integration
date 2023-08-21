@@ -6,7 +6,6 @@
 
 ## Steps to Setup
 
-## Steps to Setup
 **1. Download and Install Kafka**
 
 Visit the Apache [Kafka download page](https://kafka.apache.org/downloads) to download the latest version of Kafka and extract it
