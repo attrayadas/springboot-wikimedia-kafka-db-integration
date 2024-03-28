@@ -4,7 +4,7 @@
 + Demonstrates efficient transmission of data to a Kafka broker.
 + Utilizes a Kafka consumer to store data into a database.
 
-<img src="assets/Flow diagram.png" alt="flow diagram" style="width: 100%;">
+<img src="assets/flow-diagram.PNG" alt="flow diagram" style="width: 100%;">
 Link: https://stream.wikimedia.org/v2/stream/recentchange
 
 ## Steps to Setup
